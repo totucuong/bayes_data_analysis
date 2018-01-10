@@ -1,2 +1,4 @@
-# am207
-Bayesian Data Analysis
+This repo contains notebooks whose content related to
+
+- Bayes data analysis
+- Inference using sampling
