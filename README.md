@@ -1,5 +1,8 @@
-This repo contains notebooks whose content related to Bayesian data analysis. 
+This repo contains Python notebooks and data to demostrate Bayesian data analysis. The following topics are covered:
 
-- ``bda`` contains examples from Bayes Data Analysis, Gelman et.al.
-- ``slides`` contains slides from (AM 207)[https://am207.github.io/2017/material.html]
-- ``notes`` contains python notebooks for different experiments
+1. Sampling methods: 
+	1. Importance sampling
+	2. MCMC sampling: Metropolis-Hastings, Gibbs, and Hamiltonian MC.
+2. Bayesian data analysis:
+	1. Hierarchical (Multilevel) modeling
+	2. Latent variable modeling
