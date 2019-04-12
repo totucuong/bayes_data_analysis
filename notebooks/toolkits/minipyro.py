@@ -128,6 +128,7 @@ class PlateMessenger(Messenger):
 # apply_stack is called by pyro.sample and pyro.param.
 # It is responsible for applying each Messenger to each effectful operation.
 def apply_stack(msg):
+    print('ok running apply stack')
     for pointer, handler in enumerate(reversed(PYRO_STACK)):
         handler.process_message(msg)
         # When a Messenger sets the "stop" field of a message,
